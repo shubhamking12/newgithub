@@ -4,4 +4,9 @@
 //let  fname_deserialized=JSON.parse(localStorage.getItem('fname'));
 //console.log(fname_deserialized);
 
-localStorage.removeItem("fname");
+//localStorage.removeItem("fname");
+
+function editButton(){
+    Event.target.parentElement.setAttribute("contentEditable", true);
+
+}
